@@ -1,5 +1,4 @@
 import React from 'react';
-import ToolBar from "@mui/material/Toolbar";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { ShopContextProvider } from './context/shop-context';
 import Nav from './components/nav';
