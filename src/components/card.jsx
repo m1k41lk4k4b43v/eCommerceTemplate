@@ -39,13 +39,15 @@ const Card = () => {
                                         </div>
                                     </div>
                                 );
+                            } else {
+                                return null;
                             }
                         })}
                     </div>
                 </div>
             </div>
             <div className='flex justify-center items-center py-12'>
-                    <p className='text-4xl font-semibold'>Subtotal: <span className='text-green-600'>${totalAmount}</span> </p>
+                <p className='text-4xl font-semibold'>Subtotal: <span className='text-green-600'>${totalAmount}</span> </p>
             </div>
         </div>
     );
